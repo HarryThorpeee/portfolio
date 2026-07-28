@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aimee, EE's virtual assistant · Harry Thorpe</title>
+<meta name="description" content="Designing conversations inside Aimee, the AI assistant serving EE's 10+ million customers.">
+<meta property="og:title" content="Aimee, EE's virtual assistant · Harry Thorpe">
+<meta property="og:description" content="Designing conversations inside Aimee, the AI assistant serving EE's 10+ million customers.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter+Tight:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">Harry Thorpe</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link" data-page="home">Work</a></li>
+      <li><a href="about.html" class="nav-link" data-page="about">About</a></li>
+      <li><a href="mailto:hthorpedesign@gmail.com">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<a href="index.html" class="back-to-work" id="backToWork" aria-label="Back to all work">
+  <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
+    <path d="M10 3L5 8L10 13" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <span>Back to work</span>
+</a>
+
+<main id="app" class="page active" data-page="ee-aimee">
+<div class="case-hero">
+    <div class="case-meta">
+      <span>01 / Current</span>
+      <span class="separator">·</span>
+      <span>Aug 2024 - Present</span>
+      <span class="separator">·</span>
+      <span>Product Design · AI · Conversational UX</span>
+    </div>
+    <h1 class="case-title"><em>Aimee</em>, EE's virtual assistant</h1>
+    <p class="case-lede">Designing conversations inside Aimee, the AI assistant serving EE's 10+ million customers. Leading product work across billing, roaming, connection and early-life journeys, from the first question to a resolved answer.</p>
+
+    <div class="case-hero-image">
+      <div class="at-tile at-flat" style="background: #E4F000;">
+          <svg class="at-art" viewBox="0 0 200 132" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aimee">
+            <g transform="translate(86 10)" filter="url(#atglow-y)">
+              <circle cx="14" cy="6" r="5.9" fill="#111111"/>
+              <circle cx="6" cy="19" r="6" fill="#111111"/>
+              <circle cx="22" cy="19" r="6" fill="#111111"/>
+            </g>
+            <defs>
+              <filter id="atglow-y" x="-120%" y="-120%" width="340%" height="340%">
+                <feDropShadow dx="0" dy="0" stdDeviation="0" flood-color="rgba(0,86,95,0)" flood-opacity="0"/>
+              </filter>
+            </defs>
+            <text x="100" y="86" text-anchor="middle" fill="#111111"
+                  font-family="'Inter Tight', -apple-system, system-ui, sans-serif"
+                  font-size="27" font-weight="600" letter-spacing="-0.8">Aimee</text>
+          </svg>
+        </div>
+    </div>
+  </div>
+
+  <div class="case-section">
+    <div class="case-section-inner">
+      <div class="label">The problem</div>
+      <div>
+        <h3>How do you make an AI assistant feel <em>genuinely useful</em> in the moments that matter most?</h3>
+        <p>Sorting out a bill. Understanding roaming before a trip. Getting set up as a new customer. These aren't small moments. They're often the reason someone is talking to EE in the first place. The challenge: answer them without the conversation feeling generic, the handoffs feeling clunky, or the customer feeling talked down to.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="case-section">
+    <div class="case-section-inner">
+      <div class="label">Context</div>
+      <div>
+        <p>EE is the UK's largest mobile network, with more than 10 million customers passing through its support channels every year. Aimee is the AI assistant sitting at the front of that experience, the first place a customer lands when they need help.</p>
+        <p>I joined as Product Designer in August 2024, working across three of Aimee's highest-traffic areas: <strong>early-life</strong> for new customers finding their feet, <strong>billing</strong> (the number one reason anyone contacts a network), and <strong>roaming</strong> (which for most people is stressful, time-sensitive, and often happens while they're already abroad).</p>
+        <p>The longer-horizon vision work (where Aimee and the wider EE experience go next) sits in the <a href="aimee-vision.html"  style="color: var(--accent); text-decoration: none; border-bottom: 1px solid rgba(5,255,161,0.3);">Aimee Vision case study</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Selected projects intro -->
+  <div class="case-section projects-intro">
+    <div class="case-section-inner">
+      <div class="label">Selected work</div>
+      <div>
+        <h3>Three journeys, <em>up close</em></h3>
+        <p>Aimee covers a lot of ground. These are the pieces I've led end to end, where the design problem went beyond wording, and the interesting work was in deciding what to remove rather than what to add.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+       PROJECT 01 - TRACK ORDER
+  ============================================ -->
+  <div class="project-block">
+    <div class="pb-header">
+      <div class="pb-index">Project 01</div>
+      <div>
+        <h2 class="pb-title">Track <em>Order</em></h2>
+        <div class="pb-meta">
+          <span class="live">Broadband: launched</span>
+          <span class="sep">·</span>
+          <span>Mobile: signed off</span>
+          <span class="sep">·</span>
+          <span>25% containment</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="case-section-inner">
+      <div class="label">The problem</div>
+      <div>
+        <h3>Two journeys, <em>one question</em></h3>
+        <p>Customers asking where their order had got to could land in either of two overlapping Track Order journeys, and get a different answer depending on which one they hit. The confusion wasn't new, and it showed up in both places you'd look for it: the usage data, and the conversation transcripts.</p>
+        <p>Reading those side by side made the pattern hard to miss. Customers weren't failing to understand either journey. They were bouncing between them, repeating themselves, and escalating to an advisor for something the assistant should have been able to answer outright.</p>
+      </div>
+    </div>
+
+    <div style="height: 72px;"></div>
+
+    <div class="case-section-inner">
+      <div class="label">Discovery</div>
+      <div>
+        <h3>The strategy came out of the <em>groundwork</em></h3>
+        <p>None of what shaped this project lived in one place. The API documentation sat with engineering. The data on where customers were dropping out sat with analytics. The clearest picture of what people were actually struggling with was buried in conversation transcripts. Different teams, different formats, none of it joined up, and no single person holding the whole picture.</p>
+        <p>So discovery wasn't a box to tick before the real work started. It <em>was</em> the real work. Pulling everything onto one board (the API sources, the drop-off data, the transcript themes, the existing journeys mapped end to end) is what made the overlaps impossible to ignore, along with all the places we were asking customers for things we could already answer ourselves.</p>
+        <p>It's also what made the case for streamlining. Once every step of both journeys is laid out side by side, the ones that don't earn their place are very hard to defend, and adapting them into something a customer can actually follow becomes an obvious next move rather than a risky one.</p>
+      </div>
+    </div>
+
+    <div class="video-row">
+      <div class="video-frame">
+        <div class="video-frame-chrome">
+          <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+          <div class="label">Discovery board: Track Order</div>
+        </div>
+        <video
+          controls
+          muted
+          playsinline
+          preload="metadata"
+          poster="assets/27-video-poster.jpg">
+          <source src="assets/05-track-order-discovery-board.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="caption"><strong>Discovery board</strong>: API sources, drop-off data and transcript themes pulled together alongside the existing journeys, mapped step by step to find what could be streamlined.</div>
+    </div>
+
+    <div style="height: 72px;"></div>
+
+    <div class="case-section-inner">
+      <div class="label">The shift</div>
+      <div>
+        <h3>Stop improving both. <em>Build one.</em></h3>
+        <p>The insight pointed somewhere slightly uncomfortable: the problem wasn't what either journey said. It was that there were two of them. Improving both would have made two good journeys that still contradicted each other.</p>
+        <p>So the brief changed. Rather than optimising in place, we consolidated into a single journey designed around what customers actually needed to understand and complete, and everything that didn't serve that got cut.</p>
+      </div>
+    </div>
+
+    <div class="screen-row narrow">
+      <img src="assets/06-aimee-track-order-the-order-card-shown-for-a.png" alt="Aimee Track Order: the order card shown for a broadband order and a mobile order" loading="lazy" />
+      <div class="caption"><strong>One card, two products</strong>: the same component carrying a broadband order (dispatched) and a mobile order (awaiting dispatch), with the next action changing to suit.</div>
+    </div>
+
+    <div class="case-section-inner">
+      <div class="label">Key decisions</div>
+      <div>
+        <div class="phase-grid">
+          <div class="phase">
+            <div class="phase-num">01</div>
+            <div class="phase-content">
+              <h4>Retire, rather than patch</h4>
+              <p>Made the call to retire the Delivery Query and Order Confirmation journeys outright rather than maintain them alongside the new one. It was the less comfortable option (retiring live journeys always is), but keeping them would have preserved the exact ambiguity we were trying to remove. Fewer routes in meant fewer ways to end up somewhere unhelpful.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">02</div>
+            <div class="phase-content">
+              <h4>Push past the design brief</h4>
+              <p>A journey is only as good as the data behind it, and the right answer depended on calling the right things. I took the scope beyond design to help identify which APIs we should actually be using, which meant the experience and the data model were solved together rather than one waiting on the other.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">03</div>
+            <div class="phase-content">
+              <h4>One card, used consistently</h4>
+              <p>Designed a new card component to carry the key order information in the same shape every time. Translating data sources, API responses, known pain points and conversation reviews into something a customer could read at a glance, and recognise instantly the next time they came back.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 80px;"></div>
+
+    <div class="case-section-inner">
+      <div class="label">Outcome</div>
+      <div>
+        <h3>Launched on <em>broadband</em></h3>
+        <p>The Broadband Track Order journey went live and held a quarter of the customers who entered it, resolving the question without an escalation. Misrouting dropped, and so did the unnecessary handoffs that came with it.</p>
+      </div>
+    </div>
+
+    <div class="bento" style="margin-top: 40px;">
+      <div class="b-tile b-stat c2">
+        <div class="stat-label">Containment</div>
+        <div>
+          <div class="stat-value">25<em>%</em></div>
+          <div class="stat-note">Resolved in-assistant, without escalation</div>
+        </div>
+      </div>
+      <div class="b-tile b-stat c2">
+        <div class="stat-label">Simplified</div>
+        <div>
+          <div class="stat-value">2<em>→1</em></div>
+          <div class="stat-note">Overlapping journeys retired and consolidated</div>
+        </div>
+      </div>
+      <div class="b-tile b-brand c2">
+        <div>
+          <div class="brand-mark" style="font-size: clamp(22px, 2.2vw, 30px);">Faster to <em>launch</em></div>
+          <div class="brand-sub">Info gathered upfront · clarity early</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 80px;"></div>
+
+    <div class="case-section-inner">
+      <div class="label">What's next</div>
+      <div>
+        <p>Getting there meant working well outside my own team: calls and conversations with designers and engineers across other parts of the business to pull together information that wasn't written down anywhere. Doing that early is what took time out of the launch.</p>
+        <p>That groundwork has since moved the <strong>Mobile Track Order</strong> journey forward too, API clearance secured and design signed off, ready to build on the same foundations.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+       PROJECT 02 - ROAMING
+  ============================================ -->
+  <div class="project-block">
+    <div class="pb-header">
+      <div class="pb-index">Project 02</div>
+      <div>
+        <h2 class="pb-title"><em>Roaming</em></h2>
+        <div class="pb-meta">
+          <span class="live">Live</span>
+          <span class="sep">·</span>
+          <span>55% containment</span>
+          <span class="sep">·</span>
+          <span>+8% uplift</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="case-section-inner">
+      <div class="label">The problem</div>
+      <div>
+        <h3>The one I've <em>learned most from</em></h3>
+        <p>Roaming sits at an awkward intersection. Customers often only think about it at the worst possible moment, standing in an airport, or worse, already on holiday realising their data isn't working. The information they need is specific (which country, which plan, which add-on), time-pressured, and often has cost implications they want to understand <em>before</em> they commit.</p>
+        <p>The existing journey made that harder than it needed to be. It was fragmented: the pieces were there, but spread across a conversation in a way that left customers unable to see what their options actually were, let alone act on them without asking someone for help.</p>
+        <p>So the design problem wasn't "explain roaming." It was: get a customer from "I need help with roaming" to a confident answer in as few turns as possible, without the conversation feeling like an interrogation.</p>
+      </div>
+    </div>
+
+    <div style="height: 72px;"></div>
+
+    <div class="case-section-inner">
+      <div class="label">The situation</div>
+      <div>
+        <h3>Picking up a journey <em>already in motion</em></h3>
+        <p>I came onto this one partway through. It had a lot of moving parts already in play: roaming logic with real edge cases, several APIs feeding it, and the constraints of building inside Sprinklr. Getting properly fluent in all three was faster than trying to design around them, so that's where the first stretch went.</p>
+        <p>The temptation when you join something mid-flight is to tidy at the edges and not disturb anything. The feedback and the data didn't support that. The journey wasn't unclear in a few places; it was fragmented throughout, and no amount of rewording was going to fix a structural problem.</p>
+      </div>
+    </div>
+
+    <div class="screen-row">
+      <img src="assets/07-aimee-roaming-journey-conversation-screens.png" alt="Aimee roaming journey: conversation screens" loading="lazy" />
+      <div class="caption"><strong>Roaming journey</strong>: from opening question through destination and duration, to a costed summary the customer can act on.</div>
+    </div>
+
+    <div class="case-section-inner">
+      <div class="label">Key decisions</div>
+      <div>
+        <div class="phase-grid">
+          <div class="phase">
+            <div class="phase-num">01</div>
+            <div class="phase-content">
+              <h4>Restructure rather than tweak</h4>
+              <p>The safe move when you inherit a live journey is incremental improvement: it's cheaper, it's a shorter conversation, and nobody has to defend it. The evidence pointed the other way. Incremental fixes to a fragmented journey produce a slightly tidier fragmented journey, so I argued for structural change instead and took on the extra cost that came with it.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">02</div>
+            <div class="phase-content">
+              <h4>A carousel, so options can be compared</h4>
+              <p>Introduced a new carousel component to put roaming options side by side. Roaming decisions are inherently comparative (which pass, how many days, what it costs against what you'd pay without one), and comparison is close to impossible when information arrives one message at a time and scrolls away behind the next one.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">03</div>
+            <div class="phase-content">
+              <h4>An end-summary that closes the loop</h4>
+              <p>Rebuilt the end of the journey around a clearer summary, so a customer finishes holding one view of what applies to them rather than a scrollback of messages to reassemble. Conversations that simply stop leave people unsure whether anything actually happened, and that uncertainty is its own escalation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 80px;"></div>
+
+    <div class="case-section-inner">
+      <div class="label">Validation</div>
+      <div>
+        <h3>Testing the <em>bigger bet</em></h3>
+        <p>Arguing for restructure rather than tweaks needed evidence, not conviction. I built a prototype and ran testing sessions with the team in the room, partly to check the simplified flow genuinely was easier to navigate, and partly so the people who'd have to build it were part of the decision rather than receiving it afterwards.</p>
+        <p>It tested well on both navigation and clarity, which moved the structural argument out of the realm of design opinion and into something I could show people.</p>
+      </div>
+    </div>
+
+    <div style="height: 80px;"></div>
+
+    <div class="case-section-inner">
+      <div class="label">Outcome</div>
+      <div>
+        <h3>The highest containment <em>of the three</em></h3>
+        <p>An 8% uplift took containment to 55%, more than half of everyone entering the journey now gets a confident answer without a Guide picking it up. For a journey people reach at their most time-pressured, that's the number that matters most.</p>
+      </div>
+    </div>
+
+    <div class="bento" style="margin-top: 40px;">
+      <div class="b-tile b-stat c2">
+        <div class="stat-label">Containment</div>
+        <div>
+          <div class="stat-value">55<em>%</em></div>
+          <div class="stat-note">Resolved in-assistant, without escalation</div>
+        </div>
+      </div>
+      <div class="b-tile b-stat c2">
+        <div class="stat-label">Uplift</div>
+        <div>
+          <div class="stat-value"><em>+</em>8<em>%</em></div>
+          <div class="stat-note">Against the journey it replaced</div>
+        </div>
+      </div>
+      <div class="b-tile b-brand c2">
+        <div>
+          <div class="brand-mark" style="font-size: clamp(22px, 2.2vw, 30px);">Fewer <em>escalations</em></div>
+          <div class="brand-sub">Reduced handoffs to Guides</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 80px;"></div>
+
+    <div class="case-section-inner">
+      <div class="label">Working with engineering</div>
+      <div>
+        <p>Roaming requirements and technical constraints came into the design as it developed rather than arriving after it, which is the only reason a restructure of this size was deliverable on the timeline. Close, continuous work with engineering, plus prototypes everyone could put their hands on, kept the team moving together instead of reviewing each other's finished work.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+       PROJECT 03 - CONNECTION ISSUES
+  ============================================ -->
+  <div class="project-block">
+    <div class="pb-header">
+      <div class="pb-index">Project 03</div>
+      <div>
+        <h2 class="pb-title">Connection <em>Issues</em></h2>
+        <div class="pb-meta">
+          <span class="live">Live</span>
+          <span class="sep">·</span>
+          <span>41.22% containment</span>
+          <span class="sep">·</span>
+          <span>Currently optimising</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="case-section-inner">
+      <div class="label">The problem</div>
+      <div>
+        <h3>Is it the network, or is it <em>me?</em></h3>
+        <p>Almost every connection problem arrives as the same question with two completely different answers behind it. Either something is wrong with the network in the customer's area, in which case there's nothing they can do but understand when it'll be fixed and how to stay reachable meanwhile, or it's their device, in which case there's plenty they can do and none of it involves waiting.</p>
+        <p>Getting that fork right is the whole journey. Send someone into device troubleshooting when there's a mast down and you've wasted their time and lost the containment anyway. Tell someone the network is fine without handing them a next step and they'll escalate regardless.</p>
+        <p>The complication is that answering it needs a postcode, and people don't always know theirs, or aren't standing at the address they're asking about.</p>
+      </div>
+    </div>
+
+    <div class="screen-row">
+      <img src="assets/08-aimee-connection-issues-journey-network-stat.png" alt="Aimee Connection Issues journey: network status card, live updates opt-in, and device troubleshooting steps" loading="lazy" />
+      <div class="caption"><strong>Connection Issues journey</strong>: the card resolves the fork in one view: network fault with a fix time and a workaround, or network clear and on to device steps.</div>
+    </div>
+
+    <div class="case-section-inner">
+      <div class="label">The approach</div>
+      <div>
+        <h3>Three journeys, for three levels of <em>certainty</em></h3>
+        <p>The blocker here wasn't design, it was access. Whether this journey could work at all depended on which APIs we'd be cleared to call, and that answer wasn't arriving any time soon.</p>
+        <p>Waiting would have cost months. So instead of designing one journey and hoping, I picked up the initial exploration already in progress and designed three: one for each realistic outcome of the API conversation.</p>
+      </div>
+    </div>
+
+    <div class="case-section-inner">
+      <div class="label">Key decisions</div>
+      <div>
+        <div class="phase-grid">
+          <div class="phase">
+            <div class="phase-num">01</div>
+            <div class="phase-content">
+              <h4>The version worth arguing for</h4>
+              <p>Designed the ambitious case first, with a full set of API calls behind it: saving a MyPlace for customers who didn't have one, using live location when someone didn't know their postcode, and richer detail inside the Connection Issues component about what was actually happening on the network near them. It got stripped back on time and cost. But the thinking is done and the case is already built, so revisiting it later is a much shorter conversation. Exploration isn't wasted just because it doesn't ship first time.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">02</div>
+            <div class="phase-content">
+              <h4>The version that could launch regardless</h4>
+              <p>Also designed a journey with no API dependency at all, enough to launch as an MVP and start moving containment even in the worst case. That turned out to matter more than expected. It's now built and running as the fallback whenever the API fails, so the worst-case design ended up becoming the resilience layer rather than a contingency we never used.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">03</div>
+            <div class="phase-content">
+              <h4>The version that shipped</h4>
+              <p>Once approval came through for the most important API, I designed the journey around it. The containment comes from a card component that gives the customer a real answer inside the conversation, covering every possible state of the network in their area, rather than sending them somewhere else to find out. It cleared accessibility review first time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 80px;"></div>
+
+    <div class="case-section-inner">
+      <div class="label">Outcome</div>
+      <div>
+        <h3>Four in ten, <em>resolved in conversation</em></h3>
+        <p>The journey now contains over 41% of the customers who enter it, answered outright, without an advisor. And because the no-API version was designed alongside it, it degrades gracefully instead of falling over when the data doesn't come back.</p>
+      </div>
+    </div>
+
+    <div class="bento" style="margin-top: 40px;">
+      <div class="b-tile b-stat c2">
+        <div class="stat-label">Containment</div>
+        <div>
+          <div class="stat-value">41<em>%</em></div>
+          <div class="stat-note">41.22% resolved in-assistant, without escalation</div>
+        </div>
+      </div>
+      <div class="b-tile b-stat c2">
+        <div class="stat-label">Designed for</div>
+        <div>
+          <div class="stat-value">3<em>×</em></div>
+          <div class="stat-note">Journeys, one per level of API access</div>
+        </div>
+      </div>
+      <div class="b-tile b-brand c2">
+        <div>
+          <div class="brand-mark" style="font-size: clamp(22px, 2.2vw, 30px);">Fallback <em>live</em></div>
+          <div class="brand-sub">No-API version now catches API failure</div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 80px;"></div>
+
+    <div class="case-section-inner">
+      <div class="label">What's next</div>
+      <div>
+        <p>The journey was built in a pair, on top of an existing exploration, and the card cleared accessibility review with input from our accessibility lead.</p>
+        <p>I'm optimising it now: extending into <strong>broadband</strong> connection issues, which should push containment further still; adding deeplinks where they'd save the customer a step; and going back through the Connection Issues card to see what else it could be doing.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+       PROJECT 04 - AIMEE LEARN PAGE
+  ============================================ -->
+  <div class="project-block">
+    <div class="pb-header">
+      <div class="pb-index">Project 04</div>
+      <div>
+        <h2 class="pb-title">Aimee <em>Learn</em> page</h2>
+        <div class="pb-meta">
+          <span class="live">Live</span>
+          <span class="sep">·</span>
+          <span>Web, not conversation</span>
+          <span class="sep">·</span>
+          <span>SEO &amp; iteration ongoing</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="case-section-inner">
+      <div class="label">The problem</div>
+      <div>
+        <h3>How do you explain an assistant to someone who <em>hasn't used it?</em></h3>
+        <p>Everything else in this case study happens once a customer is already in a conversation. This one is the opposite problem: Aimee is effectively invisible until you're talking to it, which makes it hard to know what it can actually do for you, or whether it's worth starting.</p>
+        <p>So the brief was a web page rather than a journey. Somewhere to shed a bit of light on Aimee, show what's possible, and give customers landing from search a reason to try it. The tension is that a page explaining capability wants to list everything, and a page that lists everything is one nobody finishes reading.</p>
+      </div>
+    </div>
+
+    <div class="page-scroll-row">
+      <div class="ps-grid">
+        <div>
+          <div class="ps-desktop">
+            <div class="ps-chrome">
+              <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+              <div class="url">ee.co.uk/aimee</div>
+            </div>
+            <div class="ps-window"><img src="assets/09-aimee-learn-page-full-desktop-layout.jpg" alt="Aimee Learn page: full desktop layout" loading="lazy" /></div>
+          </div>
+          <div class="ps-label"><strong>Desktop</strong> <span class="scroll-hint">Scroll inside the frame</span></div>
+        </div>
+        <div>
+          <div class="ps-mobile">
+            <div class="ps-window"><img src="assets/10-aimee-learn-page-full-mobile-layout.jpg" alt="Aimee Learn page: full mobile layout" loading="lazy" /></div>
+          </div>
+          <div class="ps-label" style="justify-content: center;"><strong>Mobile</strong></div>
+        </div>
+      </div>
+      <div class="ps-footnote">Same content, two very different jobs, the four capability cards sit in a row on desktop and become a swipeable carousel on mobile, and the footer collapses into accordions.</div>
+      <div style="text-align:center;"><a class="live-link" href="https://ee.co.uk/why-ee/chat-with-aimee" target="_blank" rel="noopener noreferrer">View the live page <span class="arrow">&#8599;</span></a></div>
+    </div>
+
+    <div class="case-section-inner">
+      <div class="label">New territory</div>
+      <div>
+        <h3>A design system built for <em>conversation</em></h3>
+        <p>Loop, our design system, is built for the assistant: components that assume a message thread, a turn structure, a narrow column. Web pages don't work like that, and a fair amount of Loop doesn't translate cleanly onto one.</p>
+        <p>That meant learning a new set of constraints from scratch: how EE web pages are actually built, which web patterns customers already expect, and where the design system could stretch to cover a surface it was never designed for versus where it needed something new. Genuinely unfamiliar ground, and probably the most I've learned on a single piece here.</p>
+      </div>
+    </div>
+
+    <div class="case-section-inner">
+      <div class="label">Key decisions</div>
+      <div>
+        <div class="phase-grid">
+          <div class="phase">
+            <div class="phase-num">01</div>
+            <div class="phase-content">
+              <h4>Treat a low bar as an opportunity</h4>
+              <p>Competitor analysis turned up something useful: equivalent pages across the market were basic, and none of them showed much design ambition. That's an easy finding to file away as reassurance, everyone else is doing the minimum, so the minimum is fine. I took it the other way. If the whole category has set a low bar, clearing it properly is cheap differentiation, and there's no reason EE's version shouldn't be the good one.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">02</div>
+            <div class="phase-content">
+              <h4>Hierarchy over completeness</h4>
+              <p>The hardest discipline on a capability page is leaving things out. I built the page around a clear content hierarchy so it stays focused and readable rather than becoming an exhaustive feature list nobody scrolls to the end of. Taking it through design crits regularly was what sharpened this most, several rounds of feedback from the wider team pushed the structure, visuals and flow well past where I'd have got on my own.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">03</div>
+            <div class="phase-content">
+              <h4>Hold the line after handoff</h4>
+              <p>When the build came back it didn't meet the visual standard the design set. The path of least resistance is to accept it and move on. Instead I raised it, walked through the specific gaps rather than describing it vaguely as "off," and made the case for fixing them. That produced multiple rounds of quality updates, and opened up ongoing work on more complex changes the developers had considered finished. Design quality isn't decided at handoff; it's decided by what you're willing to go back and argue for.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 80px;"></div>
+
+    <div class="case-section-inner">
+      <div class="label">What's next</div>
+      <div>
+        <p>The page is live and still moving, the version in the frames above has already been overtaken by content and <strong>SEO</strong> work since, which is rather the point. It's a page that keeps earning its place rather than one that shipped and stopped.</p>
+        <p>Next is making it something you can interact with rather than only read: a <strong>test chat window</strong> so people can try Aimee directly on the page, and <strong>video</strong> to show the assistant working rather than describing it.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="next-project">
+    <div class="eyebrow">Next · 02</div>
+    <a href="aimee-vision.html">Aimee <em>Vision →</em></a>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-main">
+    <div class="footer-contact">
+      <div class="eyebrow">Get in touch</div>
+      <div class="footer-email">
+        <a href="mailto:hthorpedesign@gmail.com">hthorpedesign<br>@gmail.com</a>
+      </div>
+    </div>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/harry-thorpe/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      <a href="https://www.instagram.com/thorpe.design/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div>© Harry Thorpe · 2026</div>
+    <div>London, UK</div>
+  </div>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aimee Vision · Harry Thorpe</title>
+<meta name="description" content="Exploratory work on where Aimee goes next, and how an assistant becomes part of the EE app.">
+<meta property="og:title" content="Aimee Vision · Harry Thorpe">
+<meta property="og:description" content="Exploratory work on where Aimee goes next, and how an assistant becomes part of the EE app.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter+Tight:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">Harry Thorpe</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link" data-page="home">Work</a></li>
+      <li><a href="about.html" class="nav-link" data-page="about">About</a></li>
+      <li><a href="mailto:hthorpedesign@gmail.com">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<a href="index.html" class="back-to-work" id="backToWork" aria-label="Back to all work">
+  <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
+    <path d="M10 3L5 8L10 13" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <span>Back to work</span>
+</a>
+
+<main id="app" class="page active" data-page="aimee-vision">
+<div class="case-hero">
+    <div class="case-meta">
+      <span>02 / Current</span>
+      <span class="separator">·</span>
+      <span>Ongoing</span>
+      <span class="separator">·</span>
+      <span>Vision · AI · Concept work</span>
+    </div>
+    <h1 class="case-title">Aimee <em>Vision</em></h1>
+    <p class="case-lede">Exploratory work on where Aimee goes next: how an assistant stops being a chat window in the help section and becomes something woven through the EE app, turning up inside the journey you're already in.</p>
+
+    <div class="case-hero-image">
+      <div class="at-tile" style="background: radial-gradient(ellipse at 50% 26%, #1E4E72 0%, #123A5C 38%, #0C243C 68%, #071624 100%);">
+          <svg class="at-art" viewBox="0 0 200 132" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Aimee Vision">
+            <g transform="translate(86 10)" filter="url(#atglow-b)">
+              <circle cx="14" cy="6" r="5.9" fill="#FFFFFF"/>
+              <circle cx="6" cy="19" r="6" fill="#FFFFFF"/>
+              <circle cx="22" cy="19" r="6" fill="#FFFFFF"/>
+            </g>
+            <defs>
+              <filter id="atglow-b" x="-120%" y="-120%" width="340%" height="340%">
+                <feDropShadow dx="0" dy="0" stdDeviation="0" flood-color="rgba(255,255,255,0)" flood-opacity="0"/>
+              </filter>
+            </defs>
+            <text x="100" y="86" text-anchor="middle" fill="#FFFFFF"
+                  font-family="'Inter Tight', -apple-system, system-ui, sans-serif"
+                  font-size="27" font-weight="600" letter-spacing="-0.8">Aimee Vision</text>
+          </svg>
+        </div>
+    </div>
+  </div>
+
+  <div class="case-section">
+    <div class="case-section-inner">
+      <div class="label">The premise</div>
+      <div>
+        <h3>Aimee lives in a <em>chat window</em>. What if it didn't?</h3>
+        <p>Today, using Aimee is a decision you have to make. You open the app, find Help, find the chat, and describe your problem from scratch, even when you were already standing on the exact screen that problem belongs to.</p>
+        <p>This work asks the opposite question. Rather than making customers come to the assistant, what happens when the assistant turns up where they already are, inside the journey, aware of what's on screen, and able to do the thing rather than explain how to do it?</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="case-section">
+    <div class="case-section-inner">
+      <div class="label">What this is</div>
+      <div>
+        <h3>No metrics. <em>That's rather the point.</em></h3>
+        <p>None of this has shipped, so there's no containment figure at the end and nothing to claim. What vision work does instead is turn "we should do more with AI" (a sentence everyone nods along to and nobody can act on) into something specific enough to argue with.</p>
+        <p>Each exploration takes a real journey that exists in the EE app today and proposes a concrete alternative. Some of it will turn out to be wrong, or too expensive, or solving a problem customers don't have. That's a far more useful position to be wrong from than a slide that says "AI-first."</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+       EXPLORATION 01 - EE TV AI SEARCH
+  ============================================ -->
+  <div class="project-block">
+    <div class="pb-header">
+      <div class="pb-index">Exploration 01</div>
+      <div>
+        <h2 class="pb-title">EE TV, <em>search that thinks</em></h2>
+        <div class="pb-meta">
+          <span>Concept</span>
+          <span class="sep">·</span>
+          <span>TV + mobile</span>
+          <span class="sep">·</span>
+          <span>Voice &amp; natural language</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="case-section-inner">
+      <div class="label">The idea</div>
+      <div>
+        <h3>Nobody knows what they want to watch. <em>They know how they want to feel.</em></h3>
+        <p>TV search is built around a fact that isn't true: that people arrive knowing the title. Everything follows from that assumption: a text field, an alphabetical keyboard, and a grid of genre rails for when the field fails. So the person who wants something funny, or something like the thing they watched last week, has to translate that into a guess at a name and hope.</p>
+        <p>Underneath, the problem is that conventional search matches tags. A film is labelled <em>horror</em>, or <em>comedy</em>, or <em>2012</em>, and the query has to land on one of those labels to return anything. Ask for something a tag doesn't describe and you get nothing, not because the film isn't there, but because nobody thought to write that particular label on it.</p>
+      </div>
+    </div>
+
+    <div class="video-row">
+      <div class="video-frame">
+        <div class="video-frame-chrome">
+          <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+          <div class="label">EE TV: voice search journey</div>
+        </div>
+        <video controls muted playsinline preload="metadata" poster="assets/28-video-poster.jpg">
+          <source src="assets/11-ee-tv-voice-search.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="caption"><strong>On the TV</strong>: the customer speaks a starting point, answers a short run of questions to narrow it down, and lands on three films rather than a wall of them.</div>
+    </div>
+
+    <div class="case-section-inner">
+      <div class="label">On mobile</div>
+      <div>
+        <h3>The query a tag <em>can't answer</em></h3>
+        <p>The mobile screens make the argument more sharply, because they show a question the old model simply cannot process: <em>"find me the horror film with the main character from Harry Potter."</em></p>
+        <p>There is no tag for that. Answering it means knowing who starred in Harry Potter, knowing which horror films that actor has since appeared in, and understanding that "main character" here means the performer rather than the role. Three separate pieces of reasoning, none of which live in a metadata field; and the result, <em>The Woman in Black</em>, is a film that was always in the catalogue and was simply unreachable by asking for it that way.</p>
+      </div>
+    </div>
+
+    <div class="screen-row">
+      <img src="assets/12-ee-tv-ai-search-on-mobile-mood-based-suggest.png" alt="EE TV AI search on mobile: mood-based suggestion chips, a thinking state, personalised recommendations, and a niche natural-language query resolved to The Woman in Black" loading="lazy" />
+      <div class="caption"><strong>Mobile search</strong>: prompts instead of genres, a visible thinking state, and a niche natural-language query resolved to a single confident answer with play available immediately.</div>
+    </div>
+
+    <div class="case-section-inner">
+      <div class="label">Key moves</div>
+      <div>
+        <div class="phase-grid">
+          <div class="phase">
+            <div class="phase-num">01</div>
+            <div class="phase-content">
+              <h4>Suggest prompts, not categories</h4>
+              <p>The chips aren't genres. <em>Make me laugh. Give me a scare. Something like Shrek. Movies with a Hans Zimmer score.</em> They're moods, comparisons and credits, the actual shapes people's preferences come in. They also do a quiet teaching job: they show the customer the kind of thing they're now allowed to ask for, which matters when you've spent a decade training people that search means typing a title.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">02</div>
+            <div class="phase-content">
+              <h4>Narrow by asking, not by filtering</h4>
+              <p>On the TV, the journey doesn't dump results and offer filters. It asks a short run of questions and uses the answers to close in. That's the right trade for a screen you're operating from a sofa with a remote or your voice, filtering is a mouse interaction wearing a TV costume, whereas answering a question out loud is genuinely easy from ten feet away.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">03</div>
+            <div class="phase-content">
+              <h4>Three results, not three hundred</h4>
+              <p>The TV journey ends on three films. Every instinct in a catalogue business says show more, but more is what causes the twenty minutes of scrolling that ends with nobody watching anything. Committing to a small, confident answer is a harder design position to hold and a much better experience, and on mobile the niche query narrows all the way to one, with <em>Play now</em> right there.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">04</div>
+            <div class="phase-content">
+              <h4>Show your working</h4>
+              <p><em>"You're looking for a horror film with the actor from Harry Potter; that's The Woman in Black with Daniel Radcliffe."</em> The answer restates the reasoning before delivering the result. When a system makes a leap this large, showing the chain is what separates a confident answer from a lucky guess, and it gives the customer somewhere to correct it if the leap was wrong.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">05</div>
+            <div class="phase-content">
+              <h4>Say when you're thinking</h4>
+              <p>Reasoning takes longer than matching a tag, so the wait is real and needs naming rather than hiding. The <em>Thinking…</em> state (the same pattern used for voice in the parental controls work) makes the delay legible, and keeps a cancel within reach for anyone who's changed their mind.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 80px;"></div>
+
+    <div class="case-section-inner">
+      <div class="label">Open questions</div>
+      <div>
+        <p>Confident answers are only good while they're right, and the interesting failure here isn't returning nothing; it's returning one wrong thing with a fluent explanation attached. What the recovery looks like when the reasoning is plausible but mistaken is the question I'd want to design next. There's also a commercial tension worth being honest about: a system this good at finding the exact right film is a system that stops people browsing, and browsing is where catalogues surface everything nobody went looking for.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+       EXPLORATION 02 - PARENTAL CONTROLS BY VOICE
+  ============================================ -->
+  <div class="project-block">
+    <div class="pb-header">
+      <div class="pb-index">Exploration 02</div>
+      <div>
+        <h2 class="pb-title">Parental controls, <em>by voice</em></h2>
+        <div class="pb-meta">
+          <span>Concept</span>
+          <span class="sep">·</span>
+          <span>Voice + visual</span>
+          <span class="sep">·</span>
+          <span>EE app · Manage</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="case-section-inner">
+      <div class="label">The idea</div>
+      <div>
+        <h3>Four decisions, <em>one sentence</em></h3>
+        <p>Setting up parental controls is a form. Which devices, what schedule, which days, what level, what gets blocked, each one a screen, a decision, and a tap. It's not difficult, it's just long enough that people put it off, and putting it off is the failure state for a feature parents actually want.</p>
+        <p>Spoken aloud, most of it collapses into a single sentence: <em>"turn on parental controls every day at 6pm."</em> So the exploration was: tap the Aimee icon inside the parental controls component, say what you want, and let the assistant fill in the gaps by asking only for what's genuinely missing.</p>
+      </div>
+    </div>
+
+    <div class="screen-row">
+      <img src="assets/13-aimee-voice-concept-setting-up-parental-cont.png" alt="Aimee voice concept: setting up parental controls by speaking, with the conversation shown as text and a summary card at the end" loading="lazy" />
+      <div class="caption"><strong>Voice setup</strong>: the assistant opens over the Manage page, renders the spoken conversation as text as it happens, and closes on a summary card of every choice made.</div>
+    </div>
+
+    <div class="case-section-inner">
+      <div class="label">Key moves</div>
+      <div>
+        <div class="phase-grid">
+          <div class="phase">
+            <div class="phase-num">01</div>
+            <div class="phase-content">
+              <h4>The entry point sits in the component, not the app</h4>
+              <p>The Aimee icon lives inside the parental controls card itself rather than in a global toolbar. That's the whole difference between an assistant you have to brief and one that already knows what you're looking at, you never have to say the words "parental controls," because tapping it there has said them for you.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">02</div>
+            <div class="phase-content">
+              <h4>Voice you can see</h4>
+              <p>Although the conversation is spoken, it renders as text in real time. Partly that's an error check (you can see it heard "6am" and not "6pm" before it acts on it), and partly it's the honest acknowledgement that plenty of people will use this somewhere they can't rely on audio, or would rather read than listen.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">03</div>
+            <div class="phase-content">
+              <h4>Always say what you're doing</h4>
+              <p><em>Listening…</em> then <em>Thinking…</em> The failure mode of voice interfaces is the silence where you can't tell whether it heard you, so you repeat yourself and talk over the response. Naming the state costs nothing and removes that pause entirely.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">04</div>
+            <div class="phase-content">
+              <h4>Land on something tappable</h4>
+              <p>The conversation doesn't end in a spoken confirmation; it ends on a card. Voice is genuinely bad at review, because you can't scan it and you can't check one detail without replaying the lot. So the commit step goes visual: every choice laid out at a glance, with <em>Make changes</em> sitting right next to it.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">05</div>
+            <div class="phase-content">
+              <h4>Overlay, don't navigate</h4>
+              <p>The panel sits over the Manage screen rather than taking the customer somewhere else. They arrived on that page for a reason, and when the conversation closes they're still on it, with the thing they came to do now done, rather than four screens deep in a settings tree working out how to get back.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 80px;"></div>
+
+    <div class="case-section-inner">
+      <div class="label">Open questions</div>
+      <div>
+        <p>Concepts are easy to make look tidy, so it's worth naming what this one hasn't solved yet. What the correction path looks like when it mishears something and you only notice after the summary card. Whether you can interrupt it mid-sentence, which people do constantly with voice and rarely forgive when it isn't supported. And whether anyone actually wants to say their children's device names out loud on a train, which may make the case that voice should be the shortcut, never the only route.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+       EXPLORATION 03 - HUB PLACEMENT
+  ============================================ -->
+  <div class="project-block">
+    <div class="pb-header">
+      <div class="pb-index">Exploration 03</div>
+      <div>
+        <h2 class="pb-title">Where to put <em>the hub</em></h2>
+        <div class="pb-meta">
+          <span>Concept</span>
+          <span class="sep">·</span>
+          <span>Room scanning</span>
+          <span class="sep">·</span>
+          <span>EE app · Aimee</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="case-section-inner">
+      <div class="label">The idea</div>
+      <div>
+        <h3>Some questions can't be answered in <em>words</em></h3>
+        <p>Where you put your hub is one of the most consequential decisions a broadband customer makes, and it's usually made in the first ten minutes of moving in, by whoever is holding the box, based on where the socket happens to be.</p>
+        <p>The honest answer has always been a set of rules of thumb: somewhere central, off the floor, out of a cupboard, away from the microwave. All true, none of it specific to the house the customer is actually standing in. But the phone in their hand can map that house. So this exploration asks what happens when the assistant stops offering advice and starts giving an answer: a spot, marked on your own floor plan, based on your own walls.</p>
+      </div>
+    </div>
+
+    <div class="screen-row">
+      <img src="assets/14-aimee-hub-placement-concept-walking-the-hous.png" alt="Aimee hub placement concept: walking the house to build a floor plan, then a recommended hub location marked on the resulting map with placement tips" loading="lazy" />
+      <div class="caption"><strong>Scan, map, place</strong>: the floor plan draws itself as the customer walks the house, then the recommendation lands as a marked spot on their own layout, followed by tips for whenever things move.</div>
+    </div>
+
+    <div class="case-section-inner">
+      <div class="label">Key moves</div>
+      <div>
+        <div class="phase-grid">
+          <div class="phase">
+            <div class="phase-num">01</div>
+            <div class="phase-content">
+              <h4>Answer a spatial question spatially</h4>
+              <p>The output isn't a sentence describing where to put the hub, it's a glowing spot on a drawing of the customer's own home. Nobody has to translate "somewhere central, ideally elevated" into a decision about their actual hallway, which is the step where generic advice usually falls apart.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">02</div>
+            <div class="phase-content">
+              <h4>Make the assistant an instrument, not just an interface</h4>
+              <p>This is the move that interests me most. Every other exploration here has the assistant working with information EE already holds. Here it goes and gathers something new, using the phone's sensors to collect evidence the customer couldn't have supplied themselves, because you can't see where your walls block a signal. The assistant stops being a way to ask questions and becomes a way to find things out.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">03</div>
+            <div class="phase-content">
+              <h4>Draw the map as they walk</h4>
+              <p>The floor plan builds live during the scan rather than appearing at the end. It's doing three jobs at once: proving the thing is working, showing which rooms have been covered, and making a slightly odd request (walk around your house waving your phone) feel purposeful rather than embarrassing.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">04</div>
+            <div class="phase-content">
+              <h4>Let the customer say when it's done</h4>
+              <p><em>Finished my scan</em> is a button rather than something the system decides. Homes vary far too much to guess at completeness, and a scan that declares itself finished while the customer is still halfway up the stairs is worse than one that simply waits to be told.</p>
+            </div>
+          </div>
+          <div class="phase">
+            <div class="phase-num">05</div>
+            <div class="phase-content">
+              <h4>Leave them with rules as well as an answer</h4>
+              <p>The tips carousel afterwards (don't put it in a cupboard, and so on) covers what the recommendation can't. The marked spot solves today, in this house, with the furniture where it currently is. The rules travel: they still apply when someone rearranges the living room or moves out entirely.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="height: 80px;"></div>
+
+    <div class="case-section-inner">
+      <div class="label">Open questions</div>
+      <div>
+        <p>The obvious one is what happens when the best spot and a power socket aren't in the same place, the recommendation is only useful if it accounts for where the hub can physically live, and right now it's answering a question about signal in isolation. Multiple floors need thinking through as well, since the scan reads as a single-storey plan and most houses aren't. And asking permission to build a map of someone's home interior is a genuinely bigger ask than it looks, which probably means being far more explicit about what's captured, where it goes, and how to delete it.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="next-project">
+    <div class="eyebrow">Next · 03</div>
+    <a href="orkestra.html">Orkestra <em>→</em></a>
+  </div>
+
+</main>
+
+<footer>
+  <div class="footer-main">
+    <div class="footer-contact">
+      <div class="eyebrow">Get in touch</div>
+      <div class="footer-email">
+        <a href="mailto:hthorpedesign@gmail.com">hthorpedesign<br>@gmail.com</a>
+      </div>
+    </div>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/harry-thorpe/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      <a href="https://www.instagram.com/thorpe.design/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div>© Harry Thorpe · 2026</div>
+    <div>London, UK</div>
+  </div>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>

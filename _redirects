@@ -1,0 +1,8 @@
+# Netlify: serve clean URLs without the .html extension
+/aimee            /aimee.html            200
+/aimee-vision     /aimee-vision.html     200
+/orkestra         /orkestra.html         200
+/mom-i-see-war    /mom-i-see-war.html    200
+/myjeenie         /myjeenie.html         200
+/big-give         /big-give.html         200
+/about            /about.html            200
