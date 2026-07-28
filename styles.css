@@ -128,6 +128,7 @@
   /* Sticky back-to-work button (case study pages only) */
   .back-to-work {
     position: fixed;
+    text-decoration: none;
     top: 96px;
     right: 48px;
     z-index: 99;
