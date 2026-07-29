@@ -955,6 +955,31 @@
     object-fit: cover;
   }
 
+  /* Uncropped image block - for portrait screens that shouldn't be cropped */
+  .case-hero-image.is-fit,
+  .case-image.is-fit {
+    aspect-ratio: auto;
+    background:
+      radial-gradient(ellipse at 50% 30%, rgba(5,255,161,0.06) 0%, transparent 62%),
+      linear-gradient(160deg, #0a2319 0%, #061711 100%);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 56px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .case-hero-image.is-fit img,
+  .case-image.is-fit img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 640px;
+    object-fit: contain;
+  }
+
+
   .case-cta {
     padding: 120px 0;
     text-align: center;
@@ -2177,6 +2202,8 @@
     .exp-item { grid-template-columns: 1fr; gap: 12px; }
     .footer-main { grid-template-columns: 1fr; gap: 40px; }
     .case-image.full-bleed { margin-left: -24px; margin-right: -24px; }
+    .case-hero-image.is-fit, .case-image.is-fit { padding: 28px 16px; }
+    .case-hero-image.is-fit img, .case-image.is-fit img { max-height: 440px; }
     .carousel { margin-left: -24px; margin-right: -24px; }
     .outcome-callout { padding: 40px 24px; }
     .showcase-grid { grid-template-columns: 1fr; gap: 24px; }
